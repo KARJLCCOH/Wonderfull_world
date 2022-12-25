@@ -271,7 +271,7 @@ div.content{
         bottom: -90px;
         border: 2px solid black;
         border-radius: 50%;
-        background: aqua;
+        background: rgb(46, 100, 250);
         cursor: pointer;
         transition: all .7s;
        }
