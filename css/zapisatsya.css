@@ -51,7 +51,7 @@ div.top{
         right: 0;
         font-size: 120;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        letter-spacing: 6px;
+        letter-spacing: 2px;
         font-weight: bold;
         text-align: center;
         color:rgb(230, 2, 131);
@@ -115,7 +115,7 @@ div.content{
     bottom: 0;
     right: 0;
     width: 102%;
-    height:1200px;
+    height:1250px;
 }
     div.topcontent{
         position: absolute;
@@ -328,7 +328,7 @@ div.content{
        div.zapros{
         position: relative;
         margin: auto;
-        height: 630px;
+        height: 730px;
        }
        div.zapros input{
         font-family: 'Times New Roman', Times, serif;
@@ -339,38 +339,42 @@ div.content{
         left: 0;
         top: 180px;
         width: 600px;
-        height: 450px;
+        height: 530px;
         border: solid 2px black;
         background:repeating-linear-gradient( rgba(0, 255, 246, 0.71),rgba(156, 200, 247, 0.507),rgba(107, 251, 253, 0.507),rgb(122, 248, 255));
         border-radius: 5%;
        }
-       div.formname input{
+       div.forma label{
+        margin-left: 60px;
+        margin-TOP: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20;
+        color: rgb(49, 49, 49);
+        text-align: left;
+        font-weight: 600;
+        text-shadow: 3px 3px 5px black,
+       }
+
+       div.formemail input, div.formname input{
         position: relative;
         margin: auto;
+        margin-top: -15px;
         left: 8%;
         width: 500px;
-        height: 40px;
+        height: 50px;
         background-color: aliceblue;
         border: solid 2px rgb(24, 135, 141);
         border-radius: 15px 15px 15px 15px;
         font-size: 20px;
         text-indent: 25px;
        }
-       div.formemail input{
-        position: relative;
-        margin: auto;
-        left: 8%;
-        width: 500px;
-        height: 40px;
-        background-color: aliceblue;
-        border: solid 2px rgb(24, 135, 141);
-        border-radius: 15px 15px 15px 15px;
-        font-size: 20px;
-        text-indent: 25px;
+       div.forma input:hover{
+        box-shadow: 0px 0px 15px white;
        }
        div.formmessage textarea{
         position: relative;
         margin: auto;
+        margin-top: -15px;
         left: 8%;
         width: 500px;
         height: 250px;
@@ -381,7 +385,11 @@ div.content{
         font-size: 20px;
         text-align: left;
         text-indent: 25px;
+        padding-top: 10px;
         resize: none;
+       }
+       div.formmessage textarea:hover{
+        box-shadow: 0px 0px 10px white;
        }
        div.input input{
         position: relative;
@@ -393,6 +401,7 @@ div.content{
         border: solid 2px black;
         border-radius: 15px 15px 15px 15px;
         font-size: 20px;
+        cursor: pointer;
        }
        div.reset input{
         position: relative;
@@ -405,10 +414,12 @@ div.content{
         border: solid 2px black;
         border-radius: 15px 15px 15px 15px;
         font-size: 20px;
+        cursor: pointer;
        }
        div.message{
         position: relative;
         margin: auto;
+        top: 10px;
         left: 0px;
         width: 700px;
        }
@@ -443,11 +454,21 @@ div.content{
         position: absolute;
         margin: auto;
         left: 560px;
-        top:150px;
+        top:200px;
         z-index: 5;
        }
        div.mous img{
         width: 200px;
+       }
+       div.report {
+        position: absolute;
+        margin: auto;
+        left: -560px;
+        top:50px;
+        z-index: 5;
+       }
+       div.report img{
+        width: 530px;
        }
     div.underground{
         position: relative;

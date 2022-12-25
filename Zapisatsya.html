@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Дивная Страна</title>
+        <title>Запись</title>
         <link href = ".\css\zapisatsya.css" rel = "stylesheet"></link>
         <link href = ".\image\favicon.png" rel = "icon" type="image/png"></link>
         <script type="text/javascript" src="https://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
@@ -40,13 +40,16 @@
                     <div class = "forma">
                         <form action = "zapros.php" method="post">
                         <div class = "formname">
-                            <p><input type="text" placeholder = "Имя" name = "name" maxlength="50" required></p>
+                            <label for="name">Имя*</label>
+                            <p><input id = "name" type="text" placeholder = "Введите ваше имя" name = "name" maxlength="50" required></p>
                         </div>
                         <div class = "formemail">
-                            <p><input type="email" placeholder = "Адрес электронной почты" name = "email" maxlength="50" required></p>
+                            <label for="email">E-mail*</label>
+                            <p><input id = "email" type="email" placeholder = "Ваш адрес электронной почты" name = "email" maxlength="50" required></p>
                         </div>
                         <div class = "formmessage">
-                            <p><textarea placeholder = "Напишите, когда и во сколько желаете к нам прийти." name = "message" maxlength="400" required></textarea></p>                       
+                            <label for="message">Сообщение:*</label>
+                            <p><textarea id = "message" placeholder = "Напишите, когда и во сколько желаете к нам прийти." name = "message" maxlength="1000" required></textarea></p>                       
                         </div>
                         <div class = "input">
                             <p><input type = "submit" value="Отправить"><p>                       
